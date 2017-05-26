@@ -1,0 +1,21 @@
+{
+    "name": "nicklayb/timer",
+    "description": "PHP Timer packages for performance analysis",
+    "type": "package",
+    "keywords": ["timer", "performance", "microtime", "delay"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Boisvert",
+            "email": "nicklay@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nicklayb\\Timer\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
